@@ -11,7 +11,7 @@ This project must be run locally. After the repo has been cloned, using your pac
     source teikoENV/bin/activate
     pip install -r requirements.txt
 
-
+The data provided for this project, via google drive, has been saved in the "data" folder. 
 SOLUTIONS:
 Python
 
