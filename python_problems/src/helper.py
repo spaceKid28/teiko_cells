@@ -80,7 +80,6 @@ class helper:
         
         # Convert results to a DataFrame for better readability
         results_df = pd.DataFrame(results)
-        print(results_df)  # Print the results to the terminal
         results_df.to_csv('./solutions/problem_2b_statistics.csv', index=False)  # Save the results to a CSV file
 
     def write_solution_2(self):
