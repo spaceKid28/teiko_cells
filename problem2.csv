@@ -1,0 +1,10 @@
+,project,subject,condition,age,sex,treatment,response,sample,sample_type,time_from_treatment_start,b_cell,cd8_t_cell,cd4_t_cell,nk_cell,monocyte,total_count,b_cell_percentage,cd8_t_cell_percentage,cd4_t_cell_percentage,nk_cell_percentage,monocyte_percentage
+0,prj1,sbj1,melanoma,70,F,tr1,y,s1,PBMC,0.0,36000,24000,42000,6000,12000,120000,0.3,0.2,0.35,0.05,0.1
+1,prj1,sbj1,melanoma,70,F,tr1,y,s2,PBMC,7.0,30000,22000,40000,2000,6000,100000,0.3,0.22,0.4,0.02,0.06
+2,prj1,sbj1,melanoma,70,F,tr1,y,s3,PBMC,14.0,35000,26250,37500,10000,16250,125000,0.28,0.21,0.3,0.08,0.13
+4,prj1,sbj3,melanoma,75,M,tr1,n,s5,PBMC,0.0,60000,30000,37500,4500,18000,150000,0.4,0.2,0.25,0.03,0.12
+5,prj1,sbj3,melanoma,75,M,tr1,n,s6,PBMC,7.0,27500,24200,33000,5500,19800,110000,0.25,0.22,0.3,0.05,0.18
+11,prj2,sbj8,melanoma,30,F,tr1,y,s12,PBMC,0.0,39600,22800,45600,6000,6000,120000,0.33,0.19,0.38,0.05,0.05
+12,prj2,sbj9,melanoma,72,M,tr1,y,s13,PBMC,0.0,31050,24150,47150,8050,4600,115000,0.27,0.21,0.41,0.07,0.04
+15,prj3,sbj12,melanoma,50,F,tr1,n,s16,PBMC,0.0,14000,20000,24000,4000,38000,100000,0.14,0.2,0.24,0.04,0.38
+16,prj3,sbj13,melanoma,50,M,tr1,y,s17,PBMC,0.0,32400,24000,40800,10800,12000,120000,0.27,0.2,0.34,0.09,0.1
