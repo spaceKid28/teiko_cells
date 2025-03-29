@@ -1,6 +1,8 @@
- The relational database approach is a good approach because the data in cell-count.csv is highly structured.
+## Question 2
+
+The relational database approach is a good approach because the data in cell-count.csv is highly structured.
  
- Here is a list of some advantages to the relational database structure.
+Here is a list of some advantages to the relational database structure.
 
 1. Data Integrity
    - Relational databases enforce data integrity through constraints like primary keys and foreign keys. This ensures that data remains consistent and accurate (e.g., every sample is linked to a valid subject and project).
@@ -16,7 +18,7 @@
 
 
 ## Question 3
-
+```sql
 SELECT 
     condition, 
     COUNT(subject_id) AS subject_count
@@ -26,9 +28,9 @@ GROUP BY
     condition
 ORDER BY 
     subject_count DESC;
-
-# Question 4
-
+```
+## Question 4
+```sql
 SELECT 
     s.sample_id,
     s.sample_type,
@@ -45,10 +47,11 @@ WHERE
     AND s.sample_type = 'PBMC'
     AND s.time_from_treatment = 0
     AND sub.treatment = 'tr1';
-
+```
 ## Question 5
 
 ### a. 
+```sql
 WITH FilteredSamples AS (
     SELECT 
         s.sample_id,
@@ -77,9 +80,9 @@ GROUP BY
     fs.project_id
 ORDER BY 
     sample_count DESC;
-
+```
 ### b. 
-
+```sql
 WITH FilteredSamples AS (
     SELECT 
         s.sample_id,
@@ -108,8 +111,9 @@ GROUP BY
     fs.response_status
 ORDER BY 
     sample_count DESC;
-
+```
 ### c. 
+```sql
 
 WITH FilteredSamples AS (
     SELECT 
@@ -139,3 +143,4 @@ GROUP BY
     fs.gender
 ORDER BY 
     sample_count DESC;
+```

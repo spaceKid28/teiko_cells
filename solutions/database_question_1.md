@@ -76,14 +76,14 @@ Stores the calculated relative frequencies for each cell type.
 ---
 
 ## 6. Analytics Table
-Stores results of statistical analyses (e.g., t-tests) for comparisons between groups.
+Stores results of statistical analyses for comparisons between groups.
 
 | Column Name   | Data Type | Description                              |
 |---------------|-----------|------------------------------------------|
 | `analysis_id` | INT (PK)  | Unique identifier for the analysis.      |
 | `project_id`  | INT (FK)  | Foreign key linking to the Projects table. |
 | `population`  | VARCHAR   | Cell population analyzed (e.g., `b_cell_percentage`). |
-| `statistic`   | FLOAT     | Test statistic (e.g., t-statistic).      |
+| `statistic`   | FLOAT     | Test statistic (I used t-statistic in the Python section of this problem).      |
 | `p_value`     | FLOAT     | P-value of the test.                     |
 | `comparison`  | VARCHAR   | Description of the comparison (e.g., responders vs. non-responders). |
 
