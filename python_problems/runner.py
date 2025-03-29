@@ -18,7 +18,7 @@ def main():
     helper_o.perform_filter()
     helper_o.data.to_csv("problem2.csv")
     helper_o.generate_boxplots() # Python Problem2a
-    helper_o.perform_statistical_tests()
+    helper_o.perform_statistical_tests() #Python Problem 2b
 
 
 if __name__ == '__main__':
